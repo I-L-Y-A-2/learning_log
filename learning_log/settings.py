@@ -35,6 +35,9 @@ INSTALLED_APPS = [
     'learning_logs',
     'users',
 
+     # сторонние библиотеки
+    'bootstrap4',
+
     # default django apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -123,3 +126,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# my settings
+LOGIN_URL = '/users/login/'
